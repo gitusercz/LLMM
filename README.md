@@ -5,6 +5,7 @@ __LLMM is an Arduino project to keep computer from auto-locking by faking Mouse 
 ## Short Story
 This is a simple Arduino sketch, which makes the Arduino behave like an USB Mouse. In random time periods (3 .. 5 minutes) it moves the mouse pointer with random values away and back. Mouse movements are barely noticeable and happen fast. This way when this setup connected to a computer it keeps it awake, it will not auto-lock itself.
 When mouse moved, LED blinks: 
+
 ![DemoRun](/resources/RunDemo1000x.gif)
 
 ## Longer Story
@@ -15,8 +16,25 @@ So I continued to live my miserable life in such work conditions, until recently
 
 ### An Arduino comes into action
 In the back of my head I knew that Arduinos can act like HID devices. So I have set up an IDE, got a mini USB cable and an old Arduino Leonardo board. 
+
 ![board](/resources/leonardo.jpg)
 
 The online IDE has handy example programs. I tested faking a keyboard first, then I had my first working sketch (as programs called this way in the arduino world as I learnt) in 10 minutes. The online IDE works fine, but it seems to me it looses the Arduini, when the microcontroller enters to fake to be a HID device. So I installed the standalone IDE, which did not have this problem. 
 
 So I came up with a short sketch that: 
+
+ 1. Moves the mouse poiner into a random direction (X and Y coordinate
+    is random in the range 2 and 10 pixels)
+2. waits some time (a random time value between 111 and 222 millisec)
+3.  moves the mouse pointer back to its original position
+4. waits some time (a random time value between 3 and 5 minutes)
+5. Jumps to point 1. The number of times this cycle happens is defined in a counter variable, which currently set to 80. Therefore mouse movement ends after a time between 4 or 6:36 hours. 
+
+## Sumary
+With this arduino programmed and connected to your computer now you have an additional mouse connected. This occasionaly moves the mouse, barely noticeable. If it takes 5 seconds to move your mouse (touch the touchpad) and enter your password. And if you do it three times a day it will save you __an hour__ annually, not counting the inconvenience. 
+
+*(3 times 5 seconds times 20 working days in an average month times 12 months in a year == 60 minutes).* 
+
+Best regards, 
+Attila Czibere
+2023-02-11
