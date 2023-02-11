@@ -8,7 +8,7 @@
 // Since I have set it to 80, it runs at least 4 hours (80 x 3 minutes == 4 hours)
 // or maximum 6:36 (6.66 hours). After that time period it goes to an endless loop and Mouse is not moved anymore. 
 
-int counter = 80; // Safety counter to be able to reprogram the mouse if something goes wrong. Just until development goes.
+int counter = 80; // Safety counter to be able to reprogram the Arduino if something goes wrong. Just until development goes.
 // Initial values of moving values, later randomized between non-noticeable and barely noticeable values
 int MouseToMoveX = 10;
 int MouseToMoveY = 10;
