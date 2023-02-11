@@ -1,3 +1,7 @@
+// Welcome to LLMM (Lower-Level_Mouse_Mover)
+// Czibere Attila
+// 2023-02-11
+//
 #include "Mouse.h"
 
 // The counter value determines how long Mouse Mover is active
