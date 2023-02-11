@@ -31,7 +31,7 @@ So I came up with a short sketch that:
 5. Jumps to point 1. The number of times this cycle happens is defined in a counter variable, which currently set to 80. Therefore mouse movement ends after a time between 4 or 6:36 hours. 
 
 ## Summary
-With this arduino programmed and connected to your computer now you have an additional mouse connected. Arduino and its SW autostart on powerup, I have this plugged into my USB C port replicator. This occasionaly moves the mouse, barely noticeable. If it takes 5 seconds to move your mouse (touch the touchpad) and enter your password. And if you do it three times a day it will save you __an hour__ annually, not counting the inconvenience. 
+With this arduino programmed and connected to your computer now you have an additional mouse connected. Arduino and its SW autostart on powerup, I have this plugged into my USB C port replicator. This occasionaly moves the mouse, barely noticeable. If it takes 5 seconds to move your mouse (touch the touchpad) and enter your password, and if you do it three times a day it will save you __an hour__ annually, not counting the inconvenience. 
 
 *(3 times 5 seconds times 20 working days in an average month times 12 months in a year == 60 minutes).* 
 
