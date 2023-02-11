@@ -39,4 +39,4 @@ Best regards,
 Attila Czibere
 2023-02-11
 
-*I'd like to express my eternal gratitude to Nagy Zsolt, who had faith in me throughout this project. *
+*I'd like to express my eternal gratitude to Nagy Zsolt, who had faith in me throughout this project.*
