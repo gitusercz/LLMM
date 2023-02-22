@@ -3,7 +3,7 @@
 __LLMM is an Arduino project to keep computer from auto-locking by faking Mouse Movements.__
 
 ## Short Story
-This is a simple Arduino sketch, which makes it behave like an USB Mouse. In random time periods (3 .. 5 minutes) mouse pointer moved away with random values and back. Mouse movements are barely noticeable and fast. When connected to a computer it keeps it awake, by preventing auto-lock.
+This is a simple Arduino sketch, which makes it behave like an USB Mouse. In random time periods (3 .. 5 minutes) mouse pointer moved away with random values and back. Mouse movements are barely noticeable and fast. When connected to a computer it keeps it awake and prevents auto-lock.
 When mouse moved, LED blinks. This is what it does sped up 1000 times:  
 
 ![DemoRun](/resources/RunDemo1000x.gif)
